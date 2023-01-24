@@ -27,6 +27,7 @@ markdown: kramdown
 remote_theme: jamigibbs/phantom # Uncomment once published to RubyGems
 plugins:
   - jekyll-paginate-v2
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
