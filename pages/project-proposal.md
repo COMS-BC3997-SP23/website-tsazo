@@ -88,3 +88,5 @@ _Timeline_
 | apr. 24 | traslation work                                                                     | tweak layout                                                                   |
 | may. 1  | traslation work                                                                     | tweak layout                                                                   |
 | may. 8  | final project                                                                       | done                                                                           |
+
+_thank you_
