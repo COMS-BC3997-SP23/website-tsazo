@@ -56,31 +56,19 @@ _Resources_
   - [React/Flask Tutorial 2](https://www.geeksforgeeks.org/how-to-connect-reactjs-with-flask-api/)
   - [React/Flask Tutorial 3](https://dev.to/nagatodev/how-to-connect-flask-to-reactjs-1k8i)
 - OpenAI / GPT-3 for translation / Google Translate API
-  - https://github.com/matheuss/google-translate-api
-  - https://rapidapi.com/blog/google-translate-api-tutorial/
-  - https://openai.com/api/
-- Google Review Integration
-- Scheduling
-  - https://calendly.com/integration/embed
-- Website Hosting: HostGator
-  - Offers:
-    - Free SSL Certificate: ensure users can feel secure on the website
-    - Single website
-    - One-click WordPress installs
-    - Email included
-    - Unmetered bandwidth: No limit to users
-    - Free domain included
-      - Might still want to buy another domain, which depends on the free domain included
-    - 24/7/365 customer support
-    - Money-back guarantee
-  - No storage needed, no dataspace or server needed as there’s no login needed
+  - [Google Translate API 1](https://github.com/matheuss/google-translate-api)
+  - [Google Translate API 2](https://rapidapi.com/blog/google-translate-api-tutorial/)
+  - [OpenAI API](https://openai.com/api/)
+- [Google Review Integration](https://developers.google.com/my-business/content/review-data)
+- [Scheduling](https://calendly.com/integration/embed)
+- Website Hosting: [AWS](https://aws.amazon.com/getting-started/hands-on/host-static-website/)
 - Website Inspiration:
-  - http://magicfitters.com/
-  - https://www.alterations.com/
+  - [Magic Fitters](http://magicfitters.com/)
+  - [Altercations](https://www.alterations.com/)
 
 _Budget_
 
-In order to recieve
+In order to host a website, hosting services are availble in multiple formats. In the interest of keeping costs low for myself and the owner (in upkeep of the website), I will be using AWS to host (in which the free tier doesn't exceed a few cents a month). The most expensive purchase will be a domain name, of which I settled on **magictailors.co** that lands at about $38 a year and increases annually, but for the first year will cost $11 when purchased through [GoDaddy](godaddy.com). Thus, the project has a budget of $30 to cover the domain/domain protection services and any accrued costs from AWS.
 
 _Timeline_
 
@@ -89,9 +77,16 @@ _Timeline_
 | jan. 30 | project proposal                                                                    | background research started                                                    |
 | feb. 6  | background research started <br> simple website made with React and Flask up on AWS | integrate & display scheduling API                                             |
 | feb. 13 | integrate & display scheduling API                                                  | integrate & display Google Reviews API                                         |
-| feb. 20 | integrate & display Google Reviews API                                              | start collecting content <br> finalize color palette                           |
-| feb. 27 | start collecting content <br> finalize color palette                                | integrate color palette with dark/light themes that matches system preferences |
-| mar. 6  | integrate color palette with dark/light themes that matches system preferences      | continue content creation (images/text)                                        |
-| mar. 20 | continue content creation (images/text) <br> check-in meeting with owner            | responsive layout                                                              |
-| mar. 27 | responsive layout                                                                   | start traslation work                                                                |
-| apr. 3 | start traslation work                                                                 |                                                                 |
+| feb. 20 | integrate & display scheduling API                                                  | integrate & display Google Reviews API                                         |
+| feb. 27 | integrate & display Google Reviews API                                              | start collecting content <br> finalize color palette                           |
+| mar. 6  | integrate & display Google Reviews API                                              | start collecting content <br> finalize color palette                           |
+| mar. 20 | start collecting content <br> finalize color palette                                | integrate color palette with dark/light themes that matches system preferences |
+| mar. 27 | integrate color palette with dark/light themes that matches system preferences      | continue content creation (images/text)                                        |
+| apr. 3  | continue content creation (images/text) <br> check-in meeting with owner            | responsive layout                                                              |
+| apr. 10 | responsive layout                                                                   | start traslation work                                                          |
+| apr. 17 | start traslation work                                                               | get a functional demo                                                          |
+| apr. 24 | traslation work                                                                     | tweak layout                                                                   |
+| may. 1  | traslation work                                                                     | tweak layout                                                                   |
+| may. 8  | final project                                                                       | done                                                                           |
+
+_thank you_
