@@ -4,7 +4,7 @@ layout: default
 
 [back](../index.html)
 
-# BC3995: Projects in Computer Science Proposal
+# BC3997: Projects in Computer Science Proposal
 
 ### By Trinity Sazo
 
@@ -88,5 +88,9 @@ _Timeline_
 | apr. 24 | traslation work                                                                     | tweak layout                                                                   |
 | may. 1  | traslation work                                                                     | tweak layout                                                                   |
 | may. 8  | final project                                                                       | done                                                                           |
+
+**Previous Experience**
+
+- COMS W6998: Advanced Web Design Studio
 
 _thank you_
