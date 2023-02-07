@@ -2,6 +2,5 @@
 
 ### By Trinity Sazo
 
-## Summary
-
-Here I will be building a website for a small business CutBySerenity.
+**Summary**
+This project covers creating a website for Magic Tailors, a small tailor shop located in Rockville Centre, Long Island.

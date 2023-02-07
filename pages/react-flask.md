@@ -150,11 +150,9 @@ def hello_world():
 The code above contains a simple API which would be called by the react front end to get the `response_body` dictionary.
 
 You might have noticed two things:
-
-1. GET http method is not specified here. Fortunately Flask's view functions accept GET requests by default.
-2. `response_body` dictionary returned at the end of the function is not being passed as an argument like `jsonify(response_body)`. View functions in Flask automatically return a dictionary, which Flask then turns to JSON format.
-
-Now, the backend has been successfully set up, you can test this by running your application.
+i) the GET http method is not specified here. This is because, by default, view functions in flask accept GET requests only.
+ii) the response_body dictionary being returned at the end of the function is not being passed as an argument to the popular jsonify function like this jsonify(response_body). This is because view functions in Flask can return a dictionary, which Flask then turns to JSON format.
+The backend has been successfully set up, you can test this by running your application.
 
 ```
 flask run
