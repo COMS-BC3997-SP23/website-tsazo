@@ -10,12 +10,12 @@ layout: default
 
 #### Problem
 
-![Google Maps location of Magic Tailors](../assets/img/gmaps.png)
-_Figure 1. Google Maps location of Magic Tailors_
+![Google Maps location of Magic Tailor's](../assets/img/gmaps.png)
+_Figure 1. Google Maps location of Magic Tailor's_
 
-Magic Tailors is a tailor shop in Rockville Centre, Long Island. Despite being in business for about 20 years, this small business does not have many technological systems in place: no website or way to manage customers. Post-COVID, many customers across all industries have relied and continue to rely on Google and business websites to decide when/where to take their business. Despite all this, Magic Tailors has a highly loyal customer base (who help spread reach through word of mouth) which has helped maintain a steady stream of customers. Considering this, it would be nice to provide these loyal customers with a way to share Magic Tailors more easily and grab the attention of those seeking tailoring services without solely relying on a referral. Moreover, the owner Geni Cepeda Zumba primarily speaks Spanish and does not have a lot of technical exposure past a mobile phone. Hence the website would primarily be customer-facing, with minimal to no services that require the owner to upkeep the site themselves.
+Magic Tailor's is a tailor shop in Rockville Centre, Long Island. Despite being in business for about 20 years, this small business does not have many technological systems in place: no website or way to manage customers. Post-COVID, many customers across all industries have relied and continue to rely on Google and business websites to decide when/where to take their business. Despite all this, Magic Tailor's has a highly loyal customer base (who help spread reach through word of mouth) which has helped maintain a steady stream of customers. Considering this, it would be nice to provide these loyal customers with a way to share Magic Tailor's more easily and grab the attention of those seeking tailoring services without solely relying on a referral. Moreover, the owner Geni Cepeda Zumba primarily speaks Spanish and does not have a lot of technical exposure past a mobile phone. Hence the website would primarily be customer-facing, with minimal to no services that require the owner to upkeep the site themselves.
 
-As seen in Figure 1, Magic Tailors does not currently have a website link connected to Google. According to research, Google Maps is the most downloaded and used map navigation app in the United States, even with Android phones having the app pre-installed. Having a website in a Google Maps Business Profile helps improve SEO measures to improve ranking in Google discovery in both maps and searches. Thus, creating a website helps with customer acquisition and customer retention, which for any small business, helps maintain stability.
+As seen in Figure 1, Magic Tailor's does not currently have a website link connected to Google. According to research, Google Maps is the most downloaded and used map navigation app in the United States, even with Android phones having the app pre-installed. Having a website in a Google Maps Business Profile helps improve SEO measures to improve ranking in Google discovery in both maps and searches. Thus, creating a website helps with customer acquisition and customer retention, which for any small business, helps maintain stability.
 
 ---
 
@@ -69,7 +69,7 @@ _Resources_
 
 _Budget_
 
-In order to host a website, hosting services are availble in multiple formats. In the interest of keeping costs low for myself and the owner (in upkeep of the website), I will be using AWS to host (in which the free tier doesn't exceed a few cents a month). The most expensive purchase will be a domain name, of which I settled on **magictailors.co** that lands at about $38 a year and increases annually, but for the first year will cost $11 when purchased through [GoDaddy](godaddy.com). Thus, the project has a budget of $30 to cover the domain/domain protection services and any accrued costs from AWS.
+In order to host a website, hosting services are availble in multiple formats. In the interest of keeping costs low for myself and the owner (in upkeep of the website), I will be using AWS to host (in which the free tier doesn't exceed a few cents a month). The most expensive purchase will be a domain name, of which I settled on **magictailors.co** that lands at about $38 a year and increases annually, but for the first year will cost $11 when purchased through [GoDaddy](https://www.godaddy.com/). Thus, the project has a budget of $30 to cover the domain/domain protection services and any accrued costs from AWS.
 
 _Timeline_
 
