@@ -45,3 +45,5 @@ Below is what I designed!
 Lastly, to make sure I don't go crazy with colors across the site, I wanted to cement a color palette that the tailor shop already uses to reflect it in the site itself.
 
 ![Magic Tailor's Color Palette](../assets/img/week2/color_palette.png)
+
+Get the palette [here](https://coolors.co/000000-f3f5f7-ffffff-2b50aa).
