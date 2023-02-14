@@ -18,3 +18,29 @@ Below are my entries, feel free to hop around 🤎
 - Feb. 6 – Feb. 12:
   - [Setting up web hosting with AWS](./pages/aws-setup.html)
   - [Wireframes](./pages/wireframes.html)
+- Feb. 13 – Feb. 19:
+  - [upcoming](index.html)
+- Feb. 20 – Feb. 26:
+  - [upcoming](index.html)
+- Feb. 27 – Mar. 5:
+  - [upcoming](index.html)
+- Mar. 6 – Mar. 12:
+  - [upcoming](index.html)
+- Mar. 13 – Mar. 19:
+  - [upcoming](index.html)
+- Mar. 20 – Mar. 26:
+  - [upcoming](index.html)
+- Mar. 27 – Apr. 2:
+  - [upcoming](index.html)
+- Apr. 3 – Apr. 9:
+  - [upcoming](index.html)
+- Apr. 10 – Apr. 16:
+  - [upcoming](index.html)
+- Apr. 17 – Apr. 23:
+  - [upcoming](index.html)
+- Apr. 24 – Apr. 30:
+  - [upcoming](index.html)
+- May. 1 – May. 7:
+  - [upcoming](index.html)
+- Final Project - May 8:
+  - [upcoming](index.html)
