@@ -6,7 +6,7 @@ layout: default
 
 ### A Senior CS Project
 
-Hi! My name is Trinity, a senior at Columbia University trying to graduate with a major in Computer Science. I am interested
+Hi! My name is Trinity, a senior at Columbia University trying to graduate with a major in Computer Science. I am interested in being a well-rounded full-stack engineer who can create mobile and web applications for a variety of businesses (and potentially my own someday).
 
 This will act as my impromptu blog talking about the days, weeks, and months of the process of building my first major website project for a small business.
 
