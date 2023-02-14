@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Creating the Magic Tailors Website
+# Creating the Magic Tailor's Website
 
 ### A Senior CS Project
 
