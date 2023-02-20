@@ -19,7 +19,8 @@ Below are my entries, feel free to hop around 🤎
   - [Setting up web hosting with AWS](./pages/aws-setup.html)
   - [Wireframes](./pages/wireframes.html)
 - Feb. 13 – Feb. 19:
-  - [upcoming](index.html)
+  - [Scheduling](./pages/week3-scheduling.html)
+  - [Website Design Progress](./pages/week3-design-update.html)
 - Feb. 20 – Feb. 26:
   - [upcoming](index.html)
 - Feb. 27 – Mar. 5:
