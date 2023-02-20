@@ -50,7 +50,7 @@ layout: default
 
 ### Method
 
-**Project directory**
+#### Project directory
 
 Create the main project directory where the website will be stored
 
@@ -59,7 +59,7 @@ $ mkdir magic_tailors
 $ cd magic_tailors
 ```
 
-**React frontend setup**
+#### React frontend setup
 
 Create the frontend react application by running:
 
@@ -81,7 +81,8 @@ At this point, you should see the following:
 
 Now we’ll move onto setting up the backend portion of the React Flask app.
 
-**Flask backend setup**
+#### Flask backend setup
+
 Create and navigate into a new directory in the magic_tailors directory:
 
 ```
@@ -89,11 +90,11 @@ $ mkdir backend
 $ cd backend
 ```
 
-### Virtual Environment
+#### Virtual Environment
 
 From here on out, it’s important to follow [Flask’s installation](https://flask.palletsprojects.com/en/2.2.x/installation/#) process. As noted there, virtual environments manage the dependencies for projects in both development and production. Virtual environments keep Python libraries independent from one another from project to project locally in an operating system.
 
-**Create an environment**
+#### Create an environment
 
 Create a project folder and a venv folder within:
 
@@ -101,7 +102,7 @@ Create a project folder and a venv folder within:
 $ python3 -m venv venv
 ```
 
-**Activate the environment**
+#### Activate the environment
 
 Before working on the project, we need to activate it by running:
 
@@ -111,7 +112,7 @@ $ . venv/bin/activate
 
 The shell prompt will change to show the name of the activated environment.
 
-**Install Flask**
+#### Install Flask
 
 Within the activated environment, install Flask:
 
@@ -170,7 +171,7 @@ Add the following to your `.gitignore` file especially if you plan on pushing yo
 /backend/__pycache__
 ```
 
-### Connecting Flask endpoint to React front end
+#### Connecting Flask endpoint to React front end
 
 Return to the main `magic_tailors` directory where the frontend is located:
 
@@ -178,13 +179,13 @@ Return to the main `magic_tailors` directory where the frontend is located:
 cd ..
 ```
 
-**Install `axios` library**
+#### Install `axios` library
 
 ```
 npm install axios
 ```
 
-**`package.json`**
+#### `package.json`
 
 Open the `package.json` file and add a proxy below the "private": true, line. This enables the Flask server on your local machine to be accessed by any API requests made by the front end as well as enabling relative paths when making those calls. For example, instead of using **http://localhost:5000/hello** you can simply make use of **/hello**.
 
@@ -196,3 +197,96 @@ Open the `package.json` file and add a proxy below the "private": true, line. Th
  "private": true,
  "proxy": "http://127.0.0.1:5000",
 ```
+
+Keep the package.json file open for a moment because you can add a neat feature. Similar to how React server automatically restarts upon file changes, you can also add this functionality to your Flask backend application. Connecting React to Flask offers this additional benefit.
+
+Add another key and value under the scripts section
+"start-backend": "cd backend && env/bin/flask run --no-debugger".
+
+```
+"scripts": {
+    "start": "react-scripts start",
+    "start-backend": "cd backend && venv/bin/flask run --no-debugger",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+```
+
+You can now initiate your backend server by running "npm run start-backend," which triggers the command specified in the package.json file. This command enters the "venv" directory in your backend folder and executes the "flask run" command.
+
+The command includes the "--no-debugger" option to turn off the browser-based debugger. This is because the Flask backend only acts as a server to host the API endpoint.
+
+#### `App.js`
+
+Time to connect the API endpoint together with the frontend. Create a file `App.js` that contains the following:
+
+```
+import { useState } from 'react'
+import logo from './logo.svg'
+import './App.css'
+
+
+function App() {
+
+   const [profileData, setProfileData] = useState(null)
+
+  function getData() {
+    console.log("fetching python localhost");
+    axios.get('/hello')
+      .then((response) => {
+        const res = response.data
+        console.log(res)
+      setProfileData(({
+        profile_name: res.name,
+        hello_world: res.hello}))
+    }).catch((error) => {
+      if (error.response) {
+        console.log(error.response)
+        console.log(error.response.status)
+        console.log(error.response.headers)
+        }
+    })}
+
+  return (
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+
+        <p>To get your profile details: </p><button onClick={getData}>Click me</button>
+        {profileData && <div>
+              <p>Profile name: {profileData.profile_name}</p>
+              <p>{profileData.hello_world}</p>
+            </div>
+        }
+      </header>
+    </div>
+  );
+}
+
+export default App;
+```
+
+Now, everything should be connected! Go ahead and test:
+
+1. Start your backend server using `npm run start-backend` in your terminal. This command can be run while you are in any directory; be it the base directory(flask_react) or the flask directory (backend)
+2. Start your react server using `npm start` in the base directory
+
+When you navigate to **http://127.0.0.1:3000** to view the React app you'll see the following:
+![React Endpoint 1](../assets/img/week1/endpoint1.png)
+
+After you click the button, then you should see this:
+![React Endpoint 2](../assets/img/week1/endpoint2.png)
+
+Now the Magic Tailor's backbones is up and running!
