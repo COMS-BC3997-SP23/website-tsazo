@@ -28,7 +28,7 @@ Below are my entries, feel free to hop around 🤎
 - Mar. 6 – Mar. 12:
   - [Redesign](week6-redesign.html)
 - Mar. 13 – Mar. 19:
-  - [SPRING BREAK](index.html)
+  - [SPRING BREAK](wee7-spring-break.html)
 - Mar. 20 – Mar. 26:
   - [Midterm Presentation](index.html)
 - Mar. 27 – Apr. 2:
