@@ -22,15 +22,15 @@ Below are my entries, feel free to hop around 🤎
   - [Scheduling](./pages/week3-scheduling.html)
   - [Website Design Progress](./pages/week3-design-update.html)
 - Feb. 20 – Feb. 26:
-  - [Google Places API](week4-google-api.html)
+  - [Google Places API](./pages/week4-google-api.html)
 - Feb. 27 – Mar. 5:
-  - [Gather Content Pt. 1](week5-logo.html)
+  - [Gather Content Pt. 1](./pages/week5-logo.html)
 - Mar. 6 – Mar. 12:
-  - [Redesign](week6-redesign.html)
+  - [Redesign](./pages/week6-redesign.html)
 - Mar. 13 – Mar. 19:
-  - [SPRING BREAK](wee7-spring-break.html)
+  - [SPRING BREAK](./pages/week7-spring-break.html)
 - Mar. 20 – Mar. 26:
-  - [Midterm Presentation](index.html)
+  - [Midterm Presentation](./pages/week8-midterm.html)
 - Mar. 27 – Apr. 2:
   - [upcoming](index.html)
 - Apr. 3 – Apr. 9:

@@ -57,5 +57,3 @@ def handler(event, context):
 
     return awsgi.response(app, event, context)
 ```
-
-![Calendly Integration](../assets/img/week3/book.png)

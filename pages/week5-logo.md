@@ -12,6 +12,6 @@ This week I decided to put the website creation breifly on pause to source some 
 
 ### Logo
 
-I used Procreate to draw the logo. 
+I used Procreate to draw the logo.
 
-![Logo](../assets/img/week3/book.png)
+![Logo](../assets/img/week5/logo_black.png)
